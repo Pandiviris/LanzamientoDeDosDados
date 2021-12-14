@@ -1,10 +1,10 @@
-#Simulando lanzamiento de dos dados. Realizado por Jose Diaz CI 226586272 y Ashly Scarpati CI 27424492. Simulacion y modelos UDONE
+#Simulando lanzamiento de dos dados. Realizado por Jose Diaz CI 26586272 y Ashly Scarpati CI 27424492. Simulacion y modelos UDONE
 import random
 
 def main():
     print("\nSimulando lanzamiento de dos dados de seis lados")
     print("\n=====================")
-    print("\nRealizado por Jose Diaz CI 226586272 y Ashly Scarpati CI 27424492.")
+    print("\nRealizado por Jose Diaz CI 26586272 y Ashly Scarpati CI 27424492.")
     print("\n=====================")
     sw = "1"
     while sw=="1":        
