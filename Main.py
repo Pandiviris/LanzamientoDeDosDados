@@ -1,11 +1,14 @@
 #Simulando lanzamiento de dos dados. Realizado por Jose Diaz CI 26586272 y Ashly Scarpati CI 27424492. Simulacion y modelos UDONE
+#Esta aplicacion simula la repeticion del lanzamiento de 2 dados n veces dando como resultado final la cantidad de veces que se repitieron los valores de los lanzamientos de los dados
 import random
 
 def main():
-    print("\nSimulando lanzamiento de dos dados de seis lados")
-    print("\n=====================")
-    print("\nRealizado por Jose Diaz CI 26586272 y Ashly Scarpati CI 27424492.")
-    print("\n=====================")
+    print("=====================")
+    print("Simulando lanzamiento de dos dados de seis lados")
+    print("Esta aplicacion simula la repeticion del lanzamiento de 2 dados n veces dando como resultado final la cantidad de veces que se repitieron los valores de los lanzamientos de los dados")
+    print("=====================")
+    print("Realizado por Jose Diaz CI 26586272 y Ashly Scarpati CI 27424492.")
+    print("=====================")
     sw = "1"
     while sw=="1":
         print("ingrese cuantos pares de dados desea simular ingrese por ejemplo 1000 o 100")
