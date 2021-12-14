@@ -8,7 +8,7 @@ def main():
     print("\n=====================")
     sw = "1"
     while sw=="1":
-        print("ingrese cuantos pares de dados desea simular")
+        print("ingrese cuantos pares de dados desea simular ingrese por ejemplo 1000 o 100")
         simulaciones = int(input())
         listaContadores= crearListaDeContadores()
 
@@ -25,8 +25,8 @@ def main():
                     elementoMasRepetido[1]=j
                     elementoMasRepetido[2]=listaContadores[i][j]
                 
-                print("la cantidad de pares de dados con resultados: ",i+1,j+1,"fue de", listaContadores[i][j])
-        print("el par de dados que mas se repitio fue",elementoMasRepetido[0]+1,elementoMasRepetido[1]+1, "con un total de ",elementoMasRepetido[2],"repeticiones")
+                print("la cantidad de pares de dados con resultados: ",i+1,"y",j+1,"fue de", listaContadores[i][j])
+        print("el par de dados que mas se repitio fue",elementoMasRepetido[0]+1,"y",elementoMasRepetido[1]+1, "con un total de ",elementoMasRepetido[2],"repeticiones")
 
         print("Ingrese 1 si desea repetir la simulacion")
         sw = input()
